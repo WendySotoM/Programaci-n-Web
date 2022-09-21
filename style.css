@@ -1,0 +1,43 @@
+html{
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articleContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 247, 255);
+
+}
+.fondo1{
+    background: url('./assets/uno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo2{
+    background: url('./assets/dos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: unset;
+}
+.fondo3{
+    background: url('./assets/tres.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo4{
+    background: url('./assets/cuatro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo5{
+    background: url('./assets/cinco.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
