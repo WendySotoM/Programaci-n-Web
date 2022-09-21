@@ -11,6 +11,7 @@ body{
 .articleContainer{
     height: 100vh;
     width: 100%;
+    
     background-color: rgb(0, 247, 255);
 
 }
@@ -24,20 +25,46 @@ body{
     background: url('./assets/dos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: unset;
-}
+    background-attachment: fixed;
+    background-attachment: fixed;
+}    
 .fondo3{
     background: url('./assets/tres.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .fondo4{
     background: url('./assets/cuatro.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .fondo5{
     background: url('./assets/cinco.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+.textContainer{
+    color: white;
+    font-size: 10vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.textContent{
+    width: 100%;
+    text-align: center;
+    
+}
+.textImageBackground{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.textI{
+    
 }
