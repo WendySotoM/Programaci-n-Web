@@ -1,0 +1,102 @@
+html {
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articleContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.fondo1{
+    background: url('./assets/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo2{
+    background: url('./assets/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo3{
+    background: url('./assets/fondo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo4{
+    background: url('./assets/fondo4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo5{
+    background: url('./assets/fondo5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo6{
+    background: url('./assets/fondo6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo7{
+    background: url('./assets/fondo7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textContainer{
+    color: white;
+    font-size: 10vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.textContent{
+    width: 100%;
+    text-align: center;
+}
+.textContent0{
+    width: 96%;
+    text-align: center;
+    animation: mexico 3s infinite;
+    background-image: linear-gradient(135deg,
+    #ff0202, #f3f2f2, rgb(2, 134, 35),
+    rgb(253, 4, 4), #fafcfb, #0a5e15);
+    background-size: 500%;
+}
+.textImageBackgroud{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes mexico{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.Cubo{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
