@@ -1,0 +1,338 @@
+:root{
+    --primary-color: #D19155;
+    --secundary-color-numero1: #E6C098;
+    --secundary-color-numero2: #FAEFDA;
+    --secundary-color-numero1: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+} 
+/*La parte superior del Body, de la barra de inicio de sesion y registrar*/
+.div1{
+    width: 100%;
+    height: 125px;
+    top: 0;
+    left: 0;
+    background:#FFFFFF;
+}
+.sesion{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+}
+.cont{
+    padding: 6px;
+}
+.cont a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.cont > a:hover{
+    font-weight: bold;
+    color:#D19155;
+}
+/*Parte superior, logo y buscaador*/
+.superior{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 50%;
+    height: 90px;
+    margin-left: 30px;
+}
+.search{
+    top: 15px;
+    margin-right: 20px;
+    width: 300px;
+    display:flex;
+}
+.search input{
+    width: 250px;
+    height: 35px;
+    padding: 2%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Parte del menú*/
+.menus{
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 100%;
+    height: 47px;
+    background:#FFFFFF;
+}
+ul{
+    margin-left: 32%;
+}
+nav > ul{
+    display: flex;
+    height: 60px;
+}
+nav > ul > li{
+    height: 60px;
+    list-style: none;
+    position: relative;
+    font-size: 30px;
+}
+nav > ul > li > a{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #D19155;
+}
+nav > ul > li > a:hover{
+    color: #E6C098;
+}
+/*Primer fondo*/
+.articleContainer1{
+    height: 100vh;
+    width: 100%;
+    background:#FFFFFF;
+}
+.fondo1{
+    top: 175px;
+    background: url('./assets/flores1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textContainer1{
+    color:#FFFFFF;
+    font-size: 7vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/*Segundo fondo*/
+.fondo2{
+    background: url('./assets/flores2.6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 700px;
+}
+.info{
+    background-color: transparent;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin-left: 700px;
+    font-weight: bold;
+    align-items: center;
+    padding: 2%;
+}
+.info span{
+    height: 100px;
+    width: 500px;
+    margin-top: 55px;
+}
+.info h1{
+    font-size: 55px;
+    color: #D19155;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    width: 500px;
+}
+.texto{
+    margin-left: 700px;
+    width: 500px;
+    text-align: justify
+}
+.texto span{
+    font-size: 30px;
+    color:#D19155;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Tercer fondo, del catalogo*/
+.catalogo{
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 94%;
+    height: 1100px;
+    background-color:#E6C098;
+    display: flex;
+    position: relative;
+}
+    /*Titulo de la seccion catalogo*/
+.titlecatalogo{
+    width: 400px;
+    height: 100px;
+    margin-left: 425px;
+}
+.titlecatalogo span{
+    width: 400px;
+    height: 100px;
+    margin-left: 20%;
+}
+.titlecatalogo h1{
+    font-size: 70px;
+    color:#D19155;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 100px;
+    text-transform: uppercase;
+}
+    /*Imagenes de la seccion de catalogo*/
+.cumple{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 100px;
+} 
+.cumple img{
+    width: 300px;
+    height: 300px;
+    margin-left: 55px;
+    margin-top: 3px;
+    background-size: cover;
+    display: flex;
+}
+.romance{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 485px;
+    margin-top: 100px;
+}
+.romance img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+}
+.centro{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 900px;
+}
+.centro img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+}
+.ramos{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 575px;
+    margin-left: 275px;
+}
+.ramos img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+}
+.arreglos{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 575px;
+    margin-left: 695px;
+}
+.arreglos img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+}
+    /*Subtitulos de la seccion del catalogo*/
+.ticumple{
+    width: 300px;
+    background-color: transparent;
+    height: 150px;
+    margin-left: 55px;
+    margin-top: 425px;
+    position: absolute;
+}
+.ticumple span{
+    font-size: 55px;
+    color:#D19155;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.tiromance{
+    width: 300px;
+    background-color: transparent;
+    height: 150px;
+    margin-left: 490px;
+    margin-top: 420px;
+    position: absolute;
+}
+.tiromance span{
+    font-size: 55px;
+    color: #D19155;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.ticentro{
+    width: 300px;
+    background-color: transparent;
+    height: 150px;
+    margin-left: 905px;
+    margin-top: 420px;
+    position: absolute;
+}
+.ticentro span{
+    font-size: 55px;
+    color: #D19155;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.tiramos{
+    width: 160px;
+    height: 150px;
+    background-color: transparent;
+    margin-left: 285px;
+    margin-top: 900px;
+    position: absolute;
+}
+.tiramos span{
+    font-size: 55px;
+    color: #D19155;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.tiarreglos{
+    width: 160px;
+    height: 150px;
+    background-color: transparent;
+    margin-left: 700px;
+    margin-top: 900px;
+    position: absolute;
+}
+.tiarreglos span{
+    font-size: 55px;
+    color: #D19155;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
